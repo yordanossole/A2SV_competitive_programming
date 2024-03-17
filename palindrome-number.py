@@ -7,7 +7,7 @@ class Solution:
         while x>0:
             reverseNo = reverseNo * 10 + x%10
             x//=10
-        
+    
         if originalNo == reverseNo:
             return True
         else:
